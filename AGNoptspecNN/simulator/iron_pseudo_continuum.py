@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.interpolate import interp1d
-from AGNoptspecNN.config import iron_template_path
 from importlib.resources import files
 
 ####### Available FeII velocities ########

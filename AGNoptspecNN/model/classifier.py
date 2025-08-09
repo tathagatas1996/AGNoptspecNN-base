@@ -146,7 +146,9 @@ def testing_files(nfiles, SPECTRA_DIR):
 
 def tests(X_group1, X_group2, X_group3, y):
     """
-    X_group1, X_group2, X_group3 : 
+    X_group1 : 500  
+    X_group2 : 1000
+    X_group3 : 2000
         The same datasets wavelength array sampled to have 500, 1000, and 2000 points 
     y: 
         real label 
@@ -169,5 +171,3 @@ def tests(X_group1, X_group2, X_group3, y):
         ypred[i] = model_define.vote_array(np.array([y_pred_labels1[i], y_pred_labels2[i], y_pred_labels3[i]]))
     
     return (y, ypred)
-
-

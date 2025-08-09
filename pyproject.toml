@@ -11,7 +11,7 @@ authors = [
   { name = "Tathagata Saha"}
 ]
 
-dependencies = ["numpy", "scipy", "matplotlib", "astropy", "seaborn", "pandas", "sklearn", "tensorflow", "keras"]
+dependencies = ["numpy", "scipy", "matplotlib", "astropy", "seaborn", "pandas", "scikit-learn", "tensorflow", "keras"]
 
 [tool.setuptools.packages.find]
 where = ["."]

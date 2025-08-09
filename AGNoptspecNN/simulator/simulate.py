@@ -2,7 +2,6 @@ import numpy as np
 import random as random
 from astropy.io import fits
 from .simulator import *
-from AGNoptspecNN.config import *
 
 header_keywords = ["CDELT0", "CDELT1", "NPIX", "Redshift", "Spectral_Type"]
 
