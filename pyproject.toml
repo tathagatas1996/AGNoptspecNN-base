@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "AGNoptspecNN"
+version = "0.1.0"
+description = "A Python module for classification of optical spectra of AGNs using a convolutional neural network "
+authors = [
+  { name = "Tathagata Saha"}
+]
+
+dependencies = ["numpy", "scipy", "matplotlib", "astropy", "seaborn", "pandas", "sklearn", "tensorflow", "keras"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"AGNoptspecNN.saved_model" = ["*.keras"]
+"AGNoptspecNN.data.templates.galaxy" = ["*.txt"]
+"AGNoptspecNN.data.templates.iron.FeII_template_4000_5500" = ["*.txt"]

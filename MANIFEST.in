@@ -1,0 +1,3 @@
+include AGNoptspecNN/saved_model/*.keras
+include AGNoptspecNN/data/templates/galaxy/*txt
+include AGNoptspecNN/data/templates/iron/FeII_template_4000_5500/*txt
