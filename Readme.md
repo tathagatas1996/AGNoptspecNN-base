@@ -25,7 +25,7 @@ The classification might not always be correct, as the training sample can have 
 ## Upcoming Upgrades
 * The package now uses simple simulated data for classification. The simulation models will be updated, and observed data will also be used for training.
 * Generalization to classify all extragalactic astrophysical spectra: galaxies, AGNs, TDEs.
-* Incorporate real spectra into the 
+* Incorporate real spectra into the training data.
 * Implementation of Bayesian Neural Networks.
 * Integrate data upload via Zenodo API.
 
